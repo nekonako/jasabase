@@ -33,7 +33,7 @@ export default function Home({ services, token }){
                                             <CardService
                                                 nama={service.nama}
                                                 user={service.user.username}
-                                                keterangan={service.keterangan.slice(0, 20)}
+                                                keterangan={service.keterangan}
                                                 harga={service.harga}
                                                 tipe={service.tipe}
                                                 alamat={service.alamat}

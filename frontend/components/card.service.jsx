@@ -18,7 +18,7 @@ export default function CardService( { nama, alamat, harga, tipe, user, keterang
                 <div className='p-4 ml-4'>
                     <div className='text-xl font-bold'>{nama}</div>
                     <div className='text-sm text-gray-500'><LineIcon name='user'/> {user}</div>
-                    <div>{keterangan.slice(0,10)}</div>
+                    <div>{keterangan}</div>
                     <div className='mt-1'><i><LineIcon name='map-marker'/></i> {alamat}</div>
                     <div className='flex flex-row mt-1'>
                         <div><i><LineIcon name='package'/></i> {tipe}</div>

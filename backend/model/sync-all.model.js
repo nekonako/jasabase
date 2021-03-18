@@ -3,7 +3,7 @@ const service = require('./service.model')
 
 function syncAll(option){
    user.sync(option)
-   service.sync(option)
+   service.sync({force : true})
    return
 }
 
