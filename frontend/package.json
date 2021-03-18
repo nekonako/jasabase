@@ -1,0 +1,27 @@
+{
+  "name": "danuautofilm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "axios": "^0.21.1",
+    "cookies": "^0.8.0",
+    "http-proxy": "^1.18.1",
+    "js-base64": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "next": "10.0.4",
+    "postcss": "^8.2.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-lineicons": "^2.2.0",
+    "swr": "^0.4.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "proxy": "http://localhost:4000"
+}
